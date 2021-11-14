@@ -77,11 +77,11 @@ body:
   attributes:
     label: System Information
     description: |
-      "Please provide the detailed information about your computer including:
+      Please provide the detailed information about your computer including:
         1. Operating system and version
         2. Your monitor configuration (easiest way would be to add a screenshot of your monitor setup from settings window)
         3. If using Linux (https://flameshot.org/guide/issue-reporting/):
           - Your Desktop Environment and your Window Manager
-          - if you are using Xorg or Wayland"
+          - if you are using Xorg or Wayland
   validations:
       required: true
