@@ -68,20 +68,20 @@ body:
   validations:
       required: false
 - type: textarea
-  id: screenshots or screen recordings
+  id: screenshots
   attributes:
-    label: Screenshots
+    label: Screenshots or screen recordings
     description: If you think it would be beneficial for us to understand the issue, please provide a screenshots or screen recordig. For screen recording you can use [Peek](https://github.com/phw/peek)
 - type: textarea
   id: systeminfo
   attributes:
     label: System Information
     description: |
-      Please provide the detailed information about your computer including
+      "Please provide the detailed information about your computer including:
         1. Operating system and version
         2. Your monitor configuration (easiest way would be to add a screenshot of your monitor setup from settings window)
-        3. If using Linux (https://flameshot.org/guide/issue-reporting/)
+        3. If using Linux (https://flameshot.org/guide/issue-reporting/):
           - Your Desktop Environment and your Window Manager
-          - if you are using Xorg or Wayland
+          - if you are using Xorg or Wayland"
   validations:
       required: true
